@@ -1,0 +1,24 @@
+/*FAQ*/
+.faq_list ul li div.question{ border-bottom:1px solid #d2d2d2; padding: 15px 0;}
+.faq_list ul li:first-child div.question{border-top: 1px solid #d2d2d2;}
+.faq_list ul li div.question > a{position: relative; display:block; padding:0 30px 10px 20px; font-weight:400; overflow:hidden }
+.faq_list ul li div.question a > p{}
+.faq_list ul li div.question a span.title{position: absolute; top: 0; left: 0; margin-right:5px; font-weight:600}
+.faq_list ul li div.question a span.arrow{position: absolute; top: 0; right: 0; width:21px; height:21px; background:url("/images/board/mobile_module_sprite.png") no-repeat 0 -71px; background-size:250px; transition:.2s; transform:rotateZ(-360deg) ;-webkit-transform:rotateZ(-360deg)}
+.faq_list ul li div.question a span.on{background:url("/images/board/mobile_module_sprite.png") no-repeat 0 -46px; background-size:250px;transform:rotateZ(0) ;-webkit-transform:rotateZ(0)}
+.faq_list ul li div.anwser{display:none; padding:10px 15px; background:#f2f2f2; border-bottom:1px solid #d2d2d2; color:#323232}
+.faq_list ul li div.question div.modify{overflow:hidden; margin-left:20px;}
+.faq_list ul li div.question div.modify a{float:left; border:1px solid #333; color:#333; padding:5px 10px; border-radius: 8px; margin-right:5px; font-size:13px}
+
+/*2020.06.23._배금아_모바일 첨부파일 다운로드 스타일 추가*/
+.left_box { overflow: hidden; }
+.file_viewbox { background-color:#fff; padding:20px; border: 1px solid #d2d2d2; border-top-color: #999; margin-top: 25px;} 
+.all_down {display: block; width: 142px; height: 33px; line-height: 33px; border: 1px solid #4876ef; border-radius: 2px; color: #4876ef; float:right; text-align:center; }
+.file_icon { display:inline-block !important; }
+.nomal { margin-top:13px; }
+.nomal ul li { margin:10px 0px; }
+.nomal ul li a { font-size:14px; letter-spacing:-1px; }
+.nomal ul li a .file_info { font-size:12px; }
+span.icon{display: inline-block; vertical-align: middle; margin-top: -3px;}
+.down_icon {margin-left: 3px; width: 17px; height: 13px; background: url("/images/board/module_sp.png") no-repeat -58px -114px; text-indent: -99999px;}
+.ebook { margin-left:10px; }

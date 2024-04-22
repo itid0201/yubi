@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModuleInfo>
+	<developer>
+		<name>황재복</name>
+		<id>powerhjb</id>
+		<email>powerhjb@itid.co.kr</email>
+	</developer>
+	<company>
+	    <copyright>(주)아이디</copyright>
+		<tel>1833-2711</tel>
+	</company>
+	<module>
+		<name>통합게시판</name>
+		<id>board</id>
+	    <version>1.0.0</version>
+		<description>가장 일반적으로 쓰이는 모듈로써 공지사항, 게시판, 사진첩, VOD게시판, 자료실등 의 스킨이 제공되어 다양하게 활용이 가능함.</description>
+		<start>board/index.php</start>
+		<skin>board/skin/</skin>
+		<upload>board/data/</upload>
+		<setup>board/setup.php</setup>
+		<configpath>board/config</configpath>
+	</module>
+	<widget>
+		<start>board/widget.php</start>
+		<savepath>board/widget</savepath>
+	</widget>
+</ModuleInfo>

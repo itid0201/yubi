@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE root [
+<!ENTITY nbsp "&#160;">
+]>
+<skin_list>
+	<_item>
+		<skin_id>board</skin_id>
+		<skin_name>일반게시판</skin_name>
+		<description>기본 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>thumb</skin_id>
+		<skin_name>썸네일게시판</skin_name>
+		<description>썸네일 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>thumb</skin_id>
+		<skin_name>썸네일 목록게시판</skin_name>
+		<description>이미지 썸네일 목록형 게시 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>thumb_photo</skin_id>
+		<skin_name>썸네일 갤러리게시판</skin_name>
+		<description>이미지 썸네일 갤러리게시판 게시 스킨입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>photonews</skin_id>
+		<skin_name>포토뉴스 게시판</skin_name>
+		<description>포토뉴스형 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>faq</skin_id>
+		<skin_name>자주묻는질문(관리자) 게시판</skin_name>
+		<description>자주묻는질문 게시판 스킨입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>qna</skin_id>
+		<skin_name>묻고답하기 게시판</skin_name>
+		<description>묻고답하기 게시판 스킨입니다.</description>
+	</_item>		
+	<_item>
+		<skin_id>gallery_photo</skin_id>
+		<skin_name>갤러리(그리드형) 게시판[사진DB버전]</skin_name>
+		<description>그리드갤러리형 게시판 스킨입니다[사진DB버전]</description>
+	</_item>
+	<_item>
+		<skin_id>share_photo</skin_id>
+		<skin_name>사진갤러리(슬라이더)</skin_name>
+		<description>사진갤러리(슬라이더) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>viewer</skin_id>
+		<skin_name>소식지(넵뷰어)</skin_name>
+		<description>소식지 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>ebook</skin_id>
+		<skin_name>소식지(ebook)</skin_name>
+		<description>소식지 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>social_ebook</skin_id>
+		<skin_name>사회조사(ebook)</skin_name>
+		<description>사회조사(ebook) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>stream_html5</skin_id>
+		<skin_name>동영상(stream_html5) 게시판</skin_name>
+		<description>동영상 게시판 스킨입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>youtube</skin_id>
+		<skin_name>동영상(youtube) 게시판</skin_name>
+		<description>동영상 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>banner</skin_id>
+		<skin_name>배너 게시판</skin_name>
+		<description>배너 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>popup</skin_id>
+		<skin_name>팝업존 게시판</skin_name>
+		<description>팝업존 게시판 스킨입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>popup_2way</skin_id>
+		<skin_name>팝업존 게시판(큰이미지/작은이미지등록)</skin_name>
+		<description>팝업존 게시판(큰이미지/작은이미지등록) 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>popup_color_multihost</skin_id>
+		<skin_name>상단팝업 게시판(배경색지정,호스트 지정)</skin_name>
+		<description>상단팝업 게시판(배경색지정,호스트 지정) 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>minwon_form</skin_id>
+		<skin_name>민원서식편람 게시판</skin_name>
+		<description>민원서식편람 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>approval_ex</skin_id>
+		<skin_name>민원접수처리(결재-다중부서지정)</skin_name>
+		<description>민원접수처리(결재-다중부서지정) 게시판입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>regulation</skin_id>
+		<skin_name>신고센터(결재)</skin_name>
+		<description>신고센터(결재) 게시판입니다.</description>
+	</_item>	
+	<_item>
+		<skin_id>request_book</skin_id>
+		<skin_name>관광안내책자신청</skin_name>
+		<description>관광안내책자신청 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>epilogue</skin_id>
+		<skin_name>관광후기</skin_name>
+		<description>관광후기 게시판 스킨입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>foreign_board_en</skin_id>
+		<skin_name>다국어 일반게시판(영문)</skin_name>
+		<description>다국어 일반게시판(영문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>foreign_board_ch</skin_id>
+		<skin_name>다국어 일반게시판(중문)</skin_name>
+		<description>다국어 일반게시판(중문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>foreign_board_jp</skin_id>
+		<skin_name>다국어 일반게시판(일문)</skin_name>
+		<description>다국어 일반게시판(일문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>new_gallery_en</skin_id>
+		<skin_name>다국어 갤러리(영문)</skin_name>
+		<description>다국어 갤러리(영문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>new_gallery_ch</skin_id>
+		<skin_name>다국어 갤러리(중문)</skin_name>
+		<description>다국어 갤러리(중문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>new_gallery_jp</skin_id>
+		<skin_name>다국어 갤러리(일문)</skin_name>
+		<description>다국어 갤러리(일문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>stream_html5_en</skin_id>
+		<skin_name>다국어 동영상_html5(영문)</skin_name>
+		<description>다국어 동영상_html5(영문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>stream_html5_ch</skin_id>
+		<skin_name>다국어 동영상_html5(중문)</skin_name>
+		<description>다국어 동영상_html5(중문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>stream_html5_jp</skin_id>
+		<skin_name>다국어 동영상_html5(일문)</skin_name>
+		<description>다국어 동영상_html5(일문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>photonews_none_en</skin_id>
+		<skin_name>포토뉴스(topNone) (영문)</skin_name>
+		<description>포토뉴스(topNone) (영문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>photonews_none_jp</skin_id>
+		<skin_name>포토뉴스(topNone) (중문)</skin_name>
+		<description>포토뉴스(topNone) (중문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>photonews_none_ch</skin_id>
+		<skin_name>포토뉴스(topNone) (일문)</skin_name>
+		<description>포토뉴스(topNone) (일문) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>culture</skin_id>
+		<skin_name>공연행사(포스터출력)</skin_name>
+		<description>공연행사(포스터출력) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>card_news</skin_id>
+		<skin_name>카드뉴스</skin_name>
+		<description>카드뉴스(정사각형 썸네일,목록링크새창) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>job_search</skin_id>
+		<skin_name>일자리 정보검색</skin_name>
+		<description>일자리 정보검색 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>bodo</skin_id>
+		<skin_name>보도자료(기사링크형-무안전투비행장)</skin_name>
+		<description>보도자료(기사링크형-무안전투비행장) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>library</skin_id>
+		<skin_name>도서검색</skin_name>
+		<description>도서검색 (도서관용)  게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>public_openlist</skin_id>
+		<skin_name>사전공표목록(무안군 전용)</skin_name>
+		<description>사전공표목록(무안군 전용) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>recommend_book</skin_id>
+		<skin_name>추천도서(도서관용)</skin_name>
+		<description>추천도서(도서관용) 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>policy_realname</skin_id>
+		<skin_name>정책실명제</skin_name>
+		<description>정책실명제 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>reg_status</skin_id>
+		<skin_name>등록현황</skin_name>
+		<description>등록현황 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>reserve</skin_id>
+		<skin_name>민원사전상담예약</skin_name>
+		<description>민원사전상담예약 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>health_data</skin_id>
+		<skin_name>보건소자료실</skin_name>
+		<description>보건소자료실 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>ys_singo</skin_id>
+		<skin_name>여수신고센터</skin_name>
+		<description>여수신고센터 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>ys_reserve_minwon</skin_id>
+		<skin_name>민원예약 게시판</skin_name>
+		<description>민원예약 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>ys_finance_board</skin_id>
+		<skin_name>여수예산서 게시판</skin_name>
+		<description>여수예산서 게시판입니다.</description>
+	</_item>
+	<_item>
+		<skin_id>ys_request_insentive</skin_id>
+		<skin_name>여수 전입인센티브 게시판</skin_name>
+		<description>여수 전입인센티브 게시판입니다.</description>
+	</_item>
+</skin_list>

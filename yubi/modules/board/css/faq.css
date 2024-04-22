@@ -1,0 +1,134 @@
+.confirm_head {	table-layout: fixed;    width: 100%;    margin-top: 28px;}
+.confirm_head ul {	display: table;	width: 100%;	table-layout: fixed;}
+.confirm_head ul li {	display: table-cell;	border: solid #000;    border-width: 1px 0;    padding: 16px 0;    color: #585858;    text-align: center;	word-break: break-all;}
+.confirm_head ul li:nth-child(1) {width:8%;}
+.confirm_head ul li:nth-child(2) {width:75%;}
+
+.confirm_head.viewCate ul li:nth-child(1) {width:8%;}
+.confirm_head.viewCate ul li:nth-child(2) {width:15%;}
+.confirm_head.viewCate ul li:nth-child(3) {width:60%;}
+/*
+.confirm_head ul li:nth-child(3) {width:20%;}
+.confirm_head ul li:nth-child(4) {width:20%;}	
+.confirm_head ul li span {	display: inline-block;}
+*/	
+.confirm_body {	table-layout: fixed; width: 100%;	}
+.confirm_body .confirm_list { position: relative; width: 100%; margin-top: 20px;}	
+.confirm_body .confirm_list .col {	display: table-cell;	padding: 16px 3px;	border-bottom: 1px solid #ccc;	text-align: center;	vertical-align: middle;}
+
+.confirm_body .confirm_list .col:nth-child(1) { width:80%; }
+.confirm_body .confirm_list .col:nth-child(2) {text-align: left;  width:10% !important; text-align: center;}
+
+.confirm_body.viewCate .confirm_list .col:nth-child(1) { width:8%; }
+.confirm_body.viewCate .confirm_list .col:nth-child(2) {text-align: center;  width:15%;}
+.confirm_body.viewCate .confirm_list .col:nth-child(3) {text-align: left;  width:60%;}
+/*.confirm_body .confirm_list .col:nth-child(3) {width:20%; }
+.confirm_body .confirm_list .col:nth-child(4) {width:20%;}
+*/	
+
+.confirm_body .confirm_list .col.quest{position: relative; padding-left: 36px; text-align: left;}
+.confirm_body .confirm_list .col.quest span.icon_que{position: absolute; top: 16px; left: 0;}
+
+.confirm_body .confirm_list .answer_box { position: relative; display: none; padding: 30px;	background-color: #f9f9f9; border-bottom: 1px solid #ccc;}
+.confirm_body .confirm_list > li.active {position: relative;  width: 100%; }
+.confirm_body .confirm_list .item{display:table;width:100%;table-layout:fixed; transition: ease-in-out 0.3s;}
+.confirm_body .confirm_list .item:hover{background-color: #585858; color: #fff;}
+.confirm_body .confirm_list .item:hover .basic_cont {color: #fff;}
+/*.confirm_body .confirm_list .item .quest:hover .basic_cont, .confirm_body .confirm_list .item .basic_cont:hover{text-decoration: underline;}*/
+.confirm_body .confirm_list > li.active .col span {	display: inline-block;}
+.confirm_body .confirm_list > li.active .answer_box {	display: block; min-height: 100px;}
+	
+.confirm_body .confirm_list > li .col .list_checkbox{position: relative; display: inline-block; vertical-align: middle; margin: -3px 6px 0 0;}
+.confirm_body .confirm_list > li .col .list_checkbox + .notice_icon{margin-left: 5px;}
+.confirm_body .confirm_list > li .col .list_checkbox label{display: block; width: 16px; height: 14px; background: url("/images/board/module_sp.png") no-repeat -265px -76px; text-indent: -99999px; cursor: pointer;}
+.confirm_body .confirm_list > li .col .list_checkbox input[type="checkbox"]:checked + label{background-position: -291px -76px;}
+.confirm_body .confirm_list > li .col .list_checkbox input{position: absolute; width: 0; height: 0; border: 0; text-indent: -99999px; z-index: -1;}	
+ span.icon_que { background: transparent url("/images/board/board_cont_bg.png?build_20200401001") no-repeat scroll -123px 0; display: inline-block;  font-size:0; height: 26px; margin-right:10px; vertical-align: middle; width: 26px; }
+ span.icon_asw { background: transparent url("/images/board/board_cont_bg.png?build_20200401001") no-repeat scroll -150px 0; display: inline-block;  font-size:0; height: 26px;  vertical-align: middle; width: 26px; }	
+a.l_btn_modify, a.l_btn_remove  { border:1px solid #113184; border-radius:2px; color:#FFF; background-color: #406187; font-size:14px; width:58px; display: inline-block; margin:0 2px; padding:2px 5px;}		  
+	
+/*뷰페이지 링크*/
+.confirm_body .confirm_list .answer_box .link_viewbox{ margin-top: 20px; position: relative; border: 1px solid #d2d2d2; padding: 30px 289px 30px 56px;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box a{position: relative; display: block; text-decoration: underline; font-size: 17px; word-break: break-all; margin-bottom: 5px;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box a span.icon{position: absolute; top: 5px; left: -26px; width: 20px; height: 19px; background: url("/images/board/module_sp.png") no-repeat 0 -114px;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box a span.icon_newwin{display: inline-block; width: 18px; height: 16px; background: url("/images/board/module_sp.png") no-repeat -30px -114px; vertical-align: middle; margin: -3px 0 0 4px;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box > span{display: block; line-height: 24px;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box span.title{color: #166ce3;}
+.confirm_body .confirm_list .answer_box .link_viewbox .cont_box span.cont{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.confirm_body .confirm_list .answer_box .link_viewbox .img_box{position: absolute; top: 30px; right: 30px; width: 197px; }	
+.confirm_body .confirm_list .answer_box .link_viewbox .img_box img{width: 197px; height: 100px;}	
+
+/*뷰페이지 신규 스타일*/
+.answer_box .viewbox{padding: 40px 40px 65px; line-height: 30px; background-color: #fff;}
+.answer_box .viewbox > div{position: relative; margin: 40px 0 0;}/*뷰페이지 박스 위치 옮기면 여백이 안맞아서 공통여백으로 변경 ##20200604 김용선*/
+.answer_box .viewbox > div:first-child{margin-top: 0;}
+/*뷰페이지 내용*/
+.answer_box .viewbox .text_viewbox{font-size: 17px; line-height: 25px;}
+.answer_box .viewbox .text_viewbox:before{content: ''; background: transparent url(/images/board/board_cont_bg.png) no-repeat scroll -150px 0; display: inline-block; font-size: 0; height: 26px; vertical-align: middle; width: 26px; margin: -2px 10px 0 0;}
+.answer_box .viewbox .image_viewbox{text-align: center;}
+.answer_box .viewbox .image_viewbox .image_viewbox_inner{position: relative; display: inline-block; margin-bottom: -6px;}
+.answer_box .viewbox .image_viewbox img{/*width: 100%;*/ max-width: 100%;}
+.answer_box .viewbox .image_viewbox .image_alt{display: block; /*position: absolute; bottom: 0; left: 0; right: 0;*/ padding: 15px 20px; color: #000; font-size: 17px; line-height: 22px; /*background-color: #000;*/ /*background-color: rgba(0,0,0,0.6);*/}
+/*뷰페이지 링크*/
+.answer_box .link_viewbox{border: 1px solid #d2d2d2; padding: 30px 289px 30px 56px;}
+.answer_box .link_viewbox .cont_box{min-height: 103px;}
+.answer_box .link_viewbox .cont_box a{position: relative; display: block; text-decoration: underline; font-size: 17px; word-break: break-all; margin-bottom: 5px;}
+.answer_box .link_viewbox .cont_box a span.icon{position: absolute; top: 5px; left: -26px; width: 20px; height: 19px; background: url("/images/board/module_sp.png") no-repeat 0 -114px;}
+.answer_box .link_viewbox .cont_box a span.icon_newwin{display: inline-block; width: 18px; height: 16px; background: url("/images/board/module_sp.png") no-repeat -30px -114px; vertical-align: middle; margin: -3px 0 0 4px;}
+.answer_box .link_viewbox .cont_box > span{display: block; line-height: 24px;}
+.answer_box .link_viewbox .cont_box span.title{color: #166ce3;}
+.answer_box .link_viewbox .cont_box span.cont{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.answer_box .link_viewbox .img_box{position: absolute; top: 30px; right: 30px;}
+.answer_box .link_viewbox .img_box img{width: 197px; height: 100px;}
+/*뷰페이지 파일다운로드*/
+.answer_box .file_viewbox{padding-left: 271px; border: 1px solid #d2d2d2; border-top-color: #999; margin-top: 25px;}
+.answer_box .file_viewbox .left_box{position: absolute; top: 50%; left: 0; width: 271px; height: 67px; text-align: center; margin-top: -34px;}
+.answer_box .file_viewbox .left_box strong{display: block; color: #727272;}
+.answer_box .file_viewbox .left_box .all_down{display: block; width: 142px; height: 33px; line-height: 33px; border: 1px solid #4876ef; border-radius: 50px; color: #4876ef; margin: 5px auto 0;}
+.answer_box .file_viewbox .right_box{background-color: #f5f5f5; padding: 18px 27px; min-height: 85px;}
+.answer_box .file_viewbox .right_box .guard{}
+.answer_box .file_viewbox .right_box .guard > strong{display: block; color: #4876ef; font-size: 15px; margin-bottom: 5px;}
+.answer_box .file_viewbox .right_box .guard > strong span.icon{display: inline-block; width: 19px; height: 24px; background: url("/images/board/module_sp.png") no-repeat -553px -114px; vertical-align: middle; margin: -3px 9px 0 2px;}
+.answer_box .file_viewbox .right_box ul li{margin: 2px 0;}
+.answer_box .file_viewbox .right_box ul li a{position: relative; display: inline-block; padding-left: 30px;}
+.answer_box .file_viewbox .right_box ul li a:hover{text-decoration: underline;}
+.answer_box .file_viewbox .right_box ul li a span.icon{display: inline-block; vertical-align: middle; margin-top: -3px;}
+.answer_box .file_viewbox .right_box ul li a span.icon.file_icon{position: absolute; top: 2px; left: 0; margin: 0;}
+.answer_box .file_viewbox .right_box ul li a span.icon.down_icon{margin-left: 3px; width: 17px; height: 13px; background: url("/images/board/module_sp.png") no-repeat -58px -114px; text-indent: -99999px;}
+/*뷰페이지 공공누리*/
+.answer_box .open_viewbox{border: 1px solid #d2d2d2; padding: 25px 30px; margin-top: 12px;}
+.answer_box .open_viewbox .open_inner{position: relative;}
+.answer_box .open_viewbox .open_inner.open_type1{padding-left: 149px;}
+.answer_box .open_viewbox .open_inner.open_type2{padding-left: 183px;}
+.answer_box .open_viewbox .open_inner.open_type3{padding-left: 183px;}
+.answer_box .open_viewbox .open_inner.open_type4{padding-left: 219px;}
+.answer_box .open_viewbox .open_inner .left_box{position: absolute; top: 0; left: 0;}
+.answer_box .open_viewbox .open_inner .right_box{padding-left: 30px; min-height: 54px; line-height: 54px;}
+.answer_box .open_viewbox .open_inner .right_box p{display: inline-block; vertical-align: middle; line-height: 1.7em;}
+/*뷰페이지 태그*/
+.answer_box .tag_viewbox{margin-top: 25px;}
+.answer_box .tag_viewbox ul{overflow: hidden; margin-bottom: -10px;}
+.answer_box .tag_viewbox ul li{float: left; margin: 0 20px 10px 0;}
+.answer_box .tag_viewbox ul li a{display: block; font-size: 17px; color: #727272;}
+
+.module_view_box .board_view_pager{overflow: hidden; margin-top: 90px; border: solid #d2d2d2; border-width: 1px 0;}
+.module_view_box .board_view_pager > a{position: relative; float: left; width: 50%; box-sizing: border-box; padding: 22px 43px;}
+.module_view_box .board_view_pager > a.prev_box{text-align: left;}
+.module_view_box .board_view_pager > a.next_box{text-align: right;}
+.module_view_box .board_view_pager > a:first-child:before{content: ''; position: absolute; top: 50%; right: 0; width: 1px; height: 28px; background-color: #d2d2d2; margin-top: -14px;}
+.module_view_box .board_view_pager > a span.icon{position: absolute; top: 50%; width: 7px; height: 12px; background: url("/images/board/module_sp.png") no-repeat -100px -66px; margin-top: -6px;}
+.module_view_box .board_view_pager > a.prev_box span.icon{background-position: -100px -66px; left: 4px;}
+.module_view_box .board_view_pager > a.next_box span.icon{background-position: -117px -66px; right: 4px;}
+.module_view_box .board_view_pager > a .cont_box span{display: block; color: #727272;}
+.module_view_box .board_view_pager > a .cont_box span.title{color: #000; font-size: 17px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.module_view_box .board_view_pager > a:hover .cont_box span.title{text-decoration: underline;}
+.module_view_box .board_view_hot{padding: 30px 36px; border-bottom: 1px solid #d2d2d2;}
+.module_view_box .board_view_hot h3{display: block; font-size: 19px; color: #000; font-weight: 400; margin-bottom: 15px;}
+.module_view_box .board_view_hot ul{overflow: hidden;}
+.module_view_box .board_view_hot ul li{float: left; width: 50%;}
+.module_view_box .board_view_hot ul li a{display: block; font-size: 16px; color: #727272; height: 30px; line-height: 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 20px;}
+.module_view_box .board_view_hot ul li a:hover{text-decoration: underline;}
+
+.answer_box .file_viewbox .right_box ul li a.preview_btn{padding-left: 10px;}
+.answer_box .file_viewbox .right_box ul li a.preview_btn span.icon{ border: 1px solid #4876ef; padding:0 8px; border-radius:3px; font-size: 14px; color:#4876ef}
+.answer_box .file_viewbox .right_box ul li a.preview_btn span.icon:hover{ background:#4876ef; color:#fff; }
